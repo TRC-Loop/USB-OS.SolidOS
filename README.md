@@ -1,5 +1,6 @@
-# USB-OS.SolidOS
+# SolidOS
 A "OS" for your USB-Stick, plug-in and run. Python is Optional as long as you run the bin shortcut.
+**Not a real OS!**
 
 # Installation Tutorial
 1. Press on the Code button
@@ -10,14 +11,31 @@ Format your USB Drive
 
 ## What filesystem is good?
 
-| exFat | Fat32 | NTFS |
-|-------|--------------|
-| Stores File bigger that 4GB | Can only Store files smaller than 4GB | Stores files bigger than 4GB |
+**exFat** is *Recommended*.
+It runs nearly everywhere and is Fast.
 
-### Windows
+**FAT32** is Low-End.
+It runs everywhere but can only store files up to 4GB.
+
+**NTFS** is not recommended
+It runs on Windows. It is fast but not for USB Drives.
+
+## Windows
 1. Open File Explorer
-2. Go to ´This PC´
+2. Go to `This PC`
 3. Rightclick you USB Drive
-4. Press on Format...
-5. Uncheck Fast Format.
+4. Press on `Format...`
+5. Uncheck `Fast Format` if the USB Capacity is lower or is 16GB.
 6. Select the Filesystem (See Filesystem).
+7. Press `Ok`, the Process can take half a hour.
+8. Move the Downloaded Zip File into your new Formatted USB Drive.
+9. Extract the Downloaded ZIP File with 7-Zip or WinRAR or the built-in ZIP Extractor in Windows.
+10. Create a shortcut to BIOS.py
+11. Now just double-click onto the Shortcut and the OS should run.
+#### Troubleshooting
+Download won´t work? Try it later.
+The OS won´t run? Download and Install Python (https://python.org/download).
+There are errors as ModuleNotFound? Try going into the OS Directory and open a Console and type `py -m pip install -r librarys.txt` (Python Installation needed)
+
+# Important
+- Before you remove the USB from your PC, make sure to exit the program using `exit` and eject the drive.
