@@ -11,7 +11,7 @@ Format your USB Drive
 ## What filesystem is good?
 
 | exFat | Fat32 | NTFS |
------------------------
+|-------|--------------|
 | Stores File bigger that 4GB | Can only Store files smaller than 4GB | Stores files bigger than 4GB |
 
 ### Windows
