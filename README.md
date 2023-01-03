@@ -1,5 +1,5 @@
 # SolidOS
-A "OS" for your USB-Stick, plug-in and run. Python is Optional as long as you run the bin shortcut.
+A "OS" for your USB-Stick, plug-in and run.
 **Not a real OS!**
 
 # Installation Tutorial
@@ -30,7 +30,7 @@ It runs on Windows. It is fast but not for USB Drives.
 7. Press `Ok`, the Process can take half a hour.
 8. Move the Downloaded Zip File into your new Formatted USB Drive.
 9. Extract the Downloaded ZIP File with 7-Zip or WinRAR or the built-in ZIP Extractor in Windows.
-10. Create a shortcut to OS/Booot/BIOS.exe
+10. Create a shortcut to src/OS/BIOS.exe
 11. Now just double-click onto the Shortcut and the OS should run.
 #### Troubleshooting
 Download won´t work? Try it later.
