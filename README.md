@@ -1,5 +1,5 @@
 # SolidOS
-A "OS" for your USB-Stick, plug-in and run. Python is Optional as long as you run the bin shortcut.
+A "OS" for your USB-Stick, plug-in and run.
 **Not a real OS!**
 
 # Installation Tutorial
